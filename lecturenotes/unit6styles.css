@@ -1,13 +1,7 @@
- /* p is our selector, color is our property and aqua is our value */
-
- p, h1{
-    color:aqua;
-    /* this is font size by % - 3 times the size 
-    font-size: 300%; */
-    font-size: 1.5em; /* 50% bigger than default */
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bolder;
-}
-p a {color: goldenrod;}
-#firstlink {color:hotpink;}
-.redtext{color: red;}
+selector{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+h1, h2{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+h1,h2{color:blue;}
+.special{color:purple;}
+.evenrow{color:aquamarine}
+h1{font-size: 2.0em;}
+h2{font-size: 3.0em;}
