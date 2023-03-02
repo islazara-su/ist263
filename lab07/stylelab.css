@@ -1,0 +1,25 @@
+<style> 
+body{
+   color:#34c6eb;
+}
+p {
+       background-color:#fc039d;
+    }
+a {
+    color:#03fc35;
+}
+h1 {
+    color:#fc4103; 
+}
+nav {
+    color:#9803fc; 
+    border:10px solid #ffffff; 
+     padding: 15px; 
+     margin-bottom: 30px;
+
+}
+nav a{
+    color:#03f4fc; 
+}
+nav a:hover {background-color:#f0fc03 }       
+</style>
