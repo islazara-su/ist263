@@ -1,4 +1,4 @@
-<style> 
+
 body{
    color:#34c6eb;
 }
@@ -21,5 +21,5 @@ nav {
 nav a{
     color:#03f4fc; 
 }
-nav a:hover {background-color:#f0fc03 }       
-</style>
+nav a:hover {background-color:#f0fc03;
+ }       
