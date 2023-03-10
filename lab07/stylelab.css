@@ -1,15 +1,18 @@
 
 body{
    color:#34c6eb;
+   border: 10px black; padding: 10px;
 }
 p {
        background-color:#fc039d;
+       border: 10px black; padding: 10px;
     }
 a {
     color:#03fc35;
 }
 h1 {
     color:#fc4103; 
+    border: 10px black; padding: 10px;
 }
 nav {
     color:#9803fc; 
