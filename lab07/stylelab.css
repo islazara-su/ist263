@@ -35,3 +35,14 @@ nav a:hover {background-color:#f0fc03;
                 .article1 {flex: 2; order: 3; background-color: darkorchid; border-radius: 1em;}
                 .article2 {flex: 1; order: 2;}
                 .article3 {flex: 1; order: 1;}
+.container {
+    overflow: hidden; /*to clear floats */
+}
+.left-content {
+    float: left;
+    width: 50%;
+}
+.right-content{
+    float: right;
+    width: 50% 
+}
