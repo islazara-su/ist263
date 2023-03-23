@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv=""
+        <meta name="viewport" content="width-device-width", initial-scale="1.0">
+        <title> Centering </title>
+        <style> 
+        p{
+            text-align: center; 
+        }
+        h1,div,{
+            background-color: blue; 
+    }
+    div{
+        /*only centers if block element is less than 100% */
+        width: 50%;
+        margin: 0 auto; 
+        padding: 10px; 
+        color: #ffffff;
+        display: flex; 
+    }
+    nav div{
+        padding: 5px; 
+    }
+    section {
+        border: 2px dashed #000000;
+    }
+    .nav2{
+        justify-content: space-around; 
+    }
+    .nav3{
+        justify-content: space-between; 
+    }
+    .resources{
+        display: flex;
+    }
+        </style>
+    </head>
+    <body> 
+        
+        <h2>Flex End</h2>
+        <nav>
+            <div>Home</div>
+            <div>About Us</div>
+            <div>Products</div>
+            <div>Contacts</div>
+        </nav>
+
+        <h2>Flex Around </h2>
+        <nav class="nav2">
+            <div>Home</div>
+            <div>About Us</div>
+            <div>Products</div>
+            <div>Contacts</div>
+        </nav>
+
+        <h2>Split Navigation</h2>
+        <nav class="nav4">
+            <div>left side</div>
+            <div>right side</div>
+        </nav>
+
+        <h1>Centering</h1>
+        <h2>Text Centering</h2>
+        <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium voluptatibus vel et odio aut, facilis iste ipsum. Hic optio incidunt, voluptate esse nam a soluta repellendus perspiciatis ducimus, aliquid autem.</p>
+        <h2>Block Centering</h2>
+        <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis adipisci consequatur odit itaque ipsum nemo aliquid asperiores quidem id exercitationem eos maxime repudiandae, dolorum rerum ad deleniti voluptas iste officia.</div>
+
+        <h2>Flexbox Hack</h2>
+        <img src="../../IMG_0297.JPG" alt="image"> 
+
+        <h2>resources</h2>
+        <div class="resources">
+        Duke Student Assistance
+        </div>
+    </body>
+</html>
