@@ -4,13 +4,16 @@
 <title>Izabelle Skills</title>
 <link rel="stylesheet" href=stylelab.css>
 <style>
-    table, th, td {border: 1px solid black;}
-    table{
-        margin: auto;
-    }
-    tr:nth-child(even){
-       background-color: orange;
-    }
+.image-container{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.image{
+    width: 200px;
+    height: 200px;
+    margin-right: 10px;
+}
+
 </style>
 </head>
 <nav> 
@@ -18,63 +21,10 @@
     <a href="skillscopy.html" target="_blank">Skills</a>
     <a href="index.html" target="_blank">Home</a>
 </nav>
-    <table>
-        <caption>Technical Skills</caption>
-        <tr>
-            <th>Category</th>
-            <th>Skill</th>
-            <th>Competancy Level</th>
-        </tr>
-        <tr>
-            <th>Coding</th>
-            <th>Python</th>
-            <th>Proficient</th>
-        </tr>
-        <tr>
-            <th>Coding</th>
-            <th>HTML</th>
-            <th>Proficient</th>
-        </tr>
-        <tr>
-            <th>Operating Systems</th>
-            <th>Windows 10</th>
-            <th>Beginner</th>
-        </tr>
-        <tr>
-            <th>Coding</th>
-            <th>CSS</th>
-            <th>Beginner</th>
-        </tr>
-        <tr>
-            <th>Applications</th>
-            <th>Photoshop</th>
-            <th>Beginner</th>
-        </tr>
-        <tr>
-            <th>Coding</th>
-            <th>PHP</th>
-            <th>Beginner</th>
-        </tr>
-        <tr>
-            <th>Applications</th>
-            <th>Excel</th>
-            <th>Proficient</th>
-        </tr>
-         <tr>
-             <th>Coding</th>
-             <th>SQL</th>
-             <th>Beginner</th>
-         </tr>
-         <tr>
-            <th>Applications</th>
-            <th>Microsoft Word</th>
-            <th>Master</th>
-        </tr>
-    </table>
-    <div>
         <img src="../lab9/html.png"> 
         <p>HTML</p>
-    </div>
+
+<div class="image-container">
 
     <div>
         <img src="../lab9/msw.png">
@@ -95,4 +45,5 @@
         <img src="../lab9/python.png">
         <p>Python</p>
     </div>
+</div>
 </html>
