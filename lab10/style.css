@@ -1,0 +1,40 @@
+nav a:hover {background-color:#f0fc03;
+}       
+.img {float: left;}
+               .clear {clear:both;}
+               .p {float: right;}
+
+               .part2 {display: flex;}
+               .article1, .article2, .article3 {margin: 10px;}
+               .article1 {flex: 2; order: 3; background-color: darkorchid; border-radius: 1em;}
+               .article2 {flex: 1; order: 2;}
+               .article3 {flex: 1; order: 1;}
+.contact-info {
+   overflow: hidden; /* to clear the floats */
+}
+
+.email {
+   float: left;
+}
+.address {
+   float: right;
+}
+.my-class{
+    max-width: 100%;
+}
+#container{
+    flex-wrap: wrap; 
+}
+@media (max-width: 480px) {
+    #container{
+        flex-direction: column;
+    }
+}
+div nav{
+    font-size: 100%;
+}
+@media (max-width: 768px){
+    .pipe{
+        display: none;
+    }
+}
