@@ -4,49 +4,69 @@
         <meta charset="UTF-8">
         <title>New York City Dance Studios</title>
         <style>
-            .container{
+          .container{
                 display: flex;
-                flex-direction: row;
+                flex-direction: column;
                 align-items: center;
                 justify-content: center;
             }
             img{
-                max-width: 100%;
+                max-width: 400px;
                 height:auto;
                 margin: 0 10px; 
+                flex-grow: 1;
             }
             .text{
                 flex: 1;
-                padding: 0 20px;
+                padding: 20px;
+                flex-grow: 3;
+                text-align: center;
             }
             footer{
                 text-align: center;
             }
+            iframe{
+                margin-top: 10px;
+            }
         </style>
         <link rel="preconnect" href="https://fonts.googleapis.com">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
+        <header>
+            <h1>New York City Dance Studios</h1>
+        </header>
+        <main>
+            <h2>Steps on Broadway</h2>
         <div class="container">
         <img src="../Final Project/stepsonbroadway.jpg" alt="Steps on Broadway">
         <div class="text">
             <p>This studio offers all styles and levels but is mostly known for their int/adv level classes in tap, jazz, and ballet. Steps on Broadway has had a growing reputation since 1979 and holds classes in its picturesque, timeless studio space. This is a world renowned studio and stop for many visiting and resident dancers.</p>
         </div>
-
-        <div>
+        </div>
+        <div id="map1"></div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.150340313088!2d-73.98404548459298!3d40.78070887932448!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25889eb0dfdd3%3A0x658bc23f3dca3a4d!2sSteps%20On%20Broadway!5e0!3m2!1sen!2sus!4v1683235017662!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <h3>Alvin Ailey</h3>
+        <div class="container"></div>
         <img src="../Final Project/alvin.jpg" alt="Alvin Ailey">
      </div>
         <div class="text">
             <p>Started by famous dancer and choreographer Alvin Ailey, dancers of all backgrounds are welcome to take drop in classes here. You may even run into some of his company members! This studio offers styles from West African to Ballet for all levels. The studio space is modern with glass windows offering great views of the city. The studio also prides themselves for their welcoming and non-competitve environment.</p>
         </div>
-        <div>
+        <div id="map2"></div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12595430.592928901!2d-93.26537376202839!3d39.58088156187913!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25859b9aa0117%3A0x74a10549707ed99d!2sThe%20Ailey%20Studios!5e0!3m2!1sen!2sus!4v1683235381725!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+        <h4>Broadway Dance Center</h4>
+        <div class="container">
         <img src="../Final Project/bdc.png" alt="Broadway Dance Center">
      </div>
         <div class="text">
             <p>Known to be one of the first studios to offer "drop-in" classes, Broadway Dance Center is an iconic studio located in the heart of New York City. They offer beginner to advanced classes in styles such as theater, contemporary, hip hop, and jazz. They draw a pre-professional / professional crowd but offer classes at all levels. You will often see the background of this studio in popular dance videos on social media.</p>
         </div>
-    </div>
-    </body>
-<footer>
+    <div id="map3"></div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.1168523216297!2d-73.99182598459358!3d40.759454579326736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258539203ffff%3A0x7c07ee522b00c929!2sBroadway%20Dance%20Center!5e0!3m2!1sen!2sus!4v1683235649472!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+   </main>
+   <footer>
     <section class="blog">
         <h2>Blog</h2>
     <form action="#" method="post">
@@ -54,6 +74,7 @@
         <textarea id="comment" name="comment" rows="5" required></textarea>
         <button type="submit">Submit</button>
     </form>
+</body>
 </section>
 </footer>
 </html>
