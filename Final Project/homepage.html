@@ -13,6 +13,7 @@
                 height: 100%;
                 width: 200px;
                 padding-top: 20px;
+                background-color: white;
                 
             }
             .center {
@@ -30,14 +31,22 @@
            text-align: center;
            margin-top: 20px;
             }
+            .nav{
+                background-color: white;
+            }
         </style>
         <link rel="shortcut icon" type="image/x-icon" href="favicon.png">
         <link rel="preconnect" href="https://fonts.googleapis.com">
     </head>
     <body>
-        <div class="nav">
-            <a href="nycpage.html">Link</a>
-        </div>
+  
+        <div class="dropdown">
+            <button onclick="myFunction()" class="nav-dropdown">Navigation Menu</button>
+            <div id="D" class="dropdown-content">
+                <a href="/Final Project/nycpage.html">Link to NYC</a>
+                <a href="/Final Project/sfpage.html">Link to SF</a>
+            </div>
+          </div>
         <div class="sidebar">
             <a href="#" class="active">Home Page</a>
             <a href="#">Austin, TX</a>
