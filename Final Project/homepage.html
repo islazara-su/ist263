@@ -13,7 +13,7 @@
                 height: 100%;
                 width: 200px;
                 padding-top: 20px;
-                background-color: white;
+                background-color: lightblue;
                 
             }
             .center {
@@ -34,19 +34,34 @@
             .nav{
                 background-color: white;
             }
+            .links {
+    background-color: lightblue;
+  display: none;
+}
+
+.links a {
+  color: black;
+  background-color: lightblue;
+  margin:10px;
+}
+
+.unhide {display: block;}
+</style>
         </style>
         <link rel="shortcut icon" type="image/x-icon" href="favicon.png">
         <link rel="preconnect" href="https://fonts.googleapis.com">
     </head>
     <body>
-  
-        <div class="dropdown">
-            <button onclick="myFunction()" class="nav-dropdown">Navigation Menu</button>
-            <div id="D" class="dropdown-content">
+    
+          <div class="nav">
+            <button onclick="clicknav()" class="x">More Pages</button>
+            <div id="navid" class="links">
                 <a href="/Final Project/nycpage.html">Link to NYC</a>
                 <a href="/Final Project/sfpage.html">Link to SF</a>
+        
             </div>
           </div>
+             
         <div class="sidebar">
             <a href="#" class="active">Home Page</a>
             <a href="#">Austin, TX</a>
@@ -71,8 +86,27 @@
             <a href="#">Washington, DC</a>
             <a href="#">Nashville, TN</a>
             <a href="#">New York City, NY</a>
+
         </div>
         </div>
         <header class="main">Click on a tab to discover the top dance studios near you!</p>
+            <script>
+                function clicknav() {
+                  document.getElementById("navid").classList.toggle("unhide");
+                }
+                
+                window.onclick = function(event) {
+                  if (!event.target.matches('.x')) {
+                    var a = document.getElementsByClassName("links");
+                    var i;
+                    for (i = 0; i < a.length; i++) {
+                      var display = a[i];
+                      if (display.classList.contains('unhide')) {
+                        display.classList.remove('unhide');
+                      }
+                    }
+                  }
+                }
+                </script>
     </body>
 </html>
